@@ -60,43 +60,15 @@ end
 
 def sources
   [
-    {name: 'rspec-api', owner: 'rspec-api'},
-    {name: 'monsters'},
-    {name: 'id3_tags', owner: 'topspin', committer: 'topspindev'},
-    {name: 'phdthesis'},
-    {name: 'dotfiles'},
-    {name: 'neverfails'},
-    {name: 'csswaxer'},
-    {name: 'rails3.github.com', owner: 'rails3'},
-    {name: 'boxoffice'},
-    {name: 'scouts'},
-    {name: 'radiotagmap'},
-    {name: 'django-sortable', owner: 'ff0000'},
-    {name: 'available_twitter_usernames'},
-    {name: 'affinity'},
-    {name: 'ff0000.github.com', owner: 'ff0000'},
-    {name: 'yesradio'},
+    {name: 'justinla'},
+    {name: 'concatenationSearching'},
+    {name: 'adamour'},
+    {name: 'GoogleMap_GOOD'}
   ]
 end
 
 def forks
-  [
-    {name: 'rails', owner: 'rails'},
-    {name: 'developer.github.com', owner: 'github'},
-    {name: 'rspec_api_documentation', owner: 'zipmark'},
-    {name: 'rspec-expectations', owner: 'rspec'},
-    {name: 'website', owner: 'emberjs'},
-    {name: 'startupsanonymous', owner: 'bomatson'},
-    {name: 'rspec-collection_matchers', owner: 'rspec'},
-    {name: 'jbuilder', owner: 'rails'},
-    {name: 'rails-perftest', owner: 'rails'},
-    {name: 'rails_apps_composer', owner: 'RailsApps'},
-    {name: 'py-github', owner: 'dustin'},
-    {name: 'lettuce', owner: 'gabrielfalcao'},
-    # {name: 'python-github2', owner: 'ask'}, old, only one commit
-    # {name: 'crystallball', owner: 'bomatson'}, old, only one commit
-    # {name: 'jsonloops', owner: 'marak'}, old, only one commit
-  ]
+  []
 end
 
 def load_repo(repo, login, is_fork=false)
