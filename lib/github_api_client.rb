@@ -32,7 +32,8 @@ end
 def new_connection
   connection = Faraday.new 'https://api.github.com/' do |c|
     c.use Faraday::Adapter::NetHttp
-  end.tap do |c|
+  end
+  connection.tap do |c|
     c.headers[:user_agent] = "GitHub API client"
     c.authorization :token, File.read('.github')
   end
@@ -61,9 +62,10 @@ end
 def sources
   [
     {name: 'justinla'},
-    {name: 'concatenationSearching'},
+    {name: 'Concatenation-Search-Algorithm'},
     {name: 'adamour'},
-    {name: 'GoogleMap_GOOD'},
+    {name: 'GoogleMap'},
+    {name: 'stone_world'},
     {name: 'responsive_layout'},
     {name: 'porkbelly'}
   ]
