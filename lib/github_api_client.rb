@@ -63,7 +63,9 @@ def sources
     {name: 'justinla'},
     {name: 'concatenationSearching'},
     {name: 'adamour'},
-    {name: 'GoogleMap_GOOD'}
+    {name: 'GoogleMap_GOOD'},
+    {name: 'responsive_layout'},
+    {name: 'porkbelly'}
   ]
 end
 
